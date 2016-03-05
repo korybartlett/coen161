@@ -1,0 +1,87 @@
+body 
+{
+	background-color: honeydew;
+	max-width: 780px;
+	text-align: center;
+	margin: auto;
+}
+
+h1
+{
+	font-size: 24pt;
+	text-align: left;
+	font-family: Verdana; 
+	background-image: url("http://i.ytimg.com/vi/W9PZPpPtdmU/maxresdefault.jpg");
+	background-repeat: repeat-x;
+	background-size: 60px;
+}
+
+h3
+{
+	text-align: center;
+}
+
+#navbar
+{
+	background-color: tomato;
+}
+
+#aboutme
+{
+	text-align: left;
+
+}
+
+figure
+{
+	float: left;
+}
+
+figcaption
+{
+	font-size: 8pt;
+}
+
+#mepic
+{
+	height:auto;
+	width:140px;
+}
+
+#hobpic
+{
+	float:left;
+	width:320px;
+	height:auto;
+	border:"2";
+	border-style: solid;
+	border-color: darksalmon;
+}
+
+address
+{
+	display: block;
+	font-style: italic;
+	clear: both;
+}
+
+#hobby
+{
+	max-width: 380px;
+	float: left;
+}
+
+#aside
+{
+	float: right;
+	max-width: 400px;
+}
+
+hr{
+	clear: both;
+}
+
+#source
+{
+	font-size: 8pt;
+}

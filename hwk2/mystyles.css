@@ -1,0 +1,178 @@
+h1{
+	font-size: 36px;
+	text-align: center;
+	border-style: double;
+	color: white;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-style: normal;
+}
+
+h2{
+	font-size: 24px;
+	text-align: center;
+	border-style: solid;
+	color: white;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-style: normal;
+}
+
+body{
+	background-color: SlateBlue;
+	max-width: 950px;
+	text-align: center;
+	margin: auto;
+}
+
+#container{
+	position: relative;
+	width: 830px;
+	background-color: khaki;
+	margin: auto;
+	height: 600px;
+}
+
+hr{
+	background-color: white;
+	height: 1px;
+}
+
+figure{
+	border-style: dashed;
+	border-color: snow;
+	border-width: 2px;
+	display: inline-block;
+	position: relative;
+	z-index: -1;
+}
+
+h3.country {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	z-index: 100;
+	position: absolute;
+	left: 120px;
+	color: white;
+}
+
+h3.countryh {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	z-index: 100;
+	position: absolute;
+	left: 240px;
+	color: white;
+}
+
+h4{
+	text-align: center;
+	color: white;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-style: normal;
+}
+
+p.captionv {
+	position: absolute;
+	z-index: 100;
+	padding-right: 80px;
+	padding-left: 5px;
+	padding-top: 220px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: WhiteSmoke;
+}
+
+p.captionh {
+	position: absolute;
+	z-index: 100;
+	padding-right: 80px;
+	padding-left: 5px;
+	padding-top: 145px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: WhiteSmoke;
+}
+
+.hor{
+	height: 180px;
+	width: 300px;
+
+}
+
+.ver{
+	height: 280px;
+	width: 180px;
+
+}
+
+.collage{
+	position: absolute;
+	height: auto;
+}
+
+#n2005{
+	width: 390px;
+	left: 0px;
+	border: 4px inset seashell;
+	z-index: 10;
+}
+
+#kings{
+	width: 230px;
+	top: 40px;
+	left: 360px;
+	border: 3px groove rebeccapurple;
+	z-index:5;
+}
+
+#nets{
+	width: 230px;
+	top:20px;
+	left: 570px;
+	border: double crimson;
+	z-index:10;
+}
+
+#sixers{
+	width: 200px;
+	top: 260px;
+	left: 0px;
+	border-style: solid;
+	z-index: 15;
+}
+
+#n2015{
+	width: 390px;
+	top: 190px;
+	left: 200px;
+	border: 2px dotted;
+	z-index: 20;
+}
+
+#soncis{
+	width: 230px;
+	left: 580px;
+	top: 210px;
+	border: 1px dashed seagreen;
+	z-index:18;
+}
+
+#suns{
+	width: 270px;
+	top: 390px;
+	left: 0px;
+	border: 3px outset lightsalmon;
+	z-index: 0;
+}
+
+#celtics{	
+	width: 230px;
+	top: 440px;
+	left: 280px;
+	border: 1px solid green;
+	z-index:25;
+}
+
+#n2010{
+	width: 310px;
+	top: 362px;
+	left: 514px;
+	border-style: outset;
+	z-index: 15;
+}
+
