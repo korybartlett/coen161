@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home Page</title>
+		<!--<link rel="stylesheet" href="css/styles.css" /> -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/startstyles.css" />
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+		<!-- Compiled and minified JavaScript -->
+  		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/homepage.js"></script>
+	</head>
+	<body>
+		<div class="mainVideo">
+			<div class="video-container">
+				<div class="opacityFilter"></div>
+				<video autoplay loop id="FillWidth">
+					<!-- Preferred quality video -->
+					<source src="Flow/MP4/Flow.mp4" type="video/mp4" />
+					<!-- In case user browser isn't great with mp4 -->
+					<source src="Flow/WEBM/Flow.webm" type="video/webm" />
+				</video>
+				<div class="poster hidden">
+					<img src="Flow/snapshots/Flow.jpg">
+				</div>
+			</div> <!-- end Video Container -->
+			<div class="welcomeTitle">
+				<h1><span>Welcome</span></h1>
+			</div>
+			<div class="datNavbarDoe">
+				<nav>
+				<ul>
+					<li class="moveIt"><a href="member_registration.html">Sign Up</a></li>
+					<li class="moveIt"><a href="shop.html">Shop</a></li>
+					<li class="moveIt"> <a href="forum.html">Forum</a></li>
+					<li class="moveIt"><a href="quiz.html">Quiz</a></li>
+					<li><a href="map.html">Map</a></li>
+				</ul>
+				</nav>
+			</div>
+			<div class="datModalButtonDoe">
+				<a href="#openModal">Learn More About the Mission</a>
+				<div id="openModal" class="modalDialog">
+					<div>
+						<h2>THE MISSION</h2>
+						<p>RecycleBots Inc. is committed to protecting the environment’s health, safety, and longevity through the encouragement and educational enrichment of recycling.</p>
+						<p>In today’s world we use a wide variety of materials throughout our daily process. A morning water bottle to keep you hydrated is key. But once that water bottle is empty, it is now a recyclable good. As we go to work we then continue our work on our computers. Just about every part of the computer that you are using is recyclable! The pieces inside can be taken in for e-waste. With the sun steadily rising and falling a soda may be a choice of beverage to keep you going through the day. The soda can from which you drank is also now able to be recycled. As the rest of the day flies by with little rest, your supervisor may ask for you to print out your days report. If any excess papers are printed out on accident make sure that those are properly recycled as well.Those are some of the several objects that can be recycled during an average persons work.</p>
+						<p>The ways and means that most object can be recycled are fairly simple. A blue bin symbolizes that it takes recyclable items. A bin with three revolving arrows also is a key identifier for a recycling bin as well. If you were interested in a quick form of making money collecting recyclable items can be turned into recycling centers for exchange of cash. These options for recycling allow easy forms for each and everyone one of us to help protect the environment through recycling.</p>
+						<p>Feel free to navigate the site and explore what RecycleBots has to offer. We have the homepage, where you can navigate the content and view the mission statement. Next we have the registration page, so that you can receive a unique member code. Next, we have a forum page to allow recycling enthusiasts to discuss in a safe environment. After that, we have our catalog under Shop and lastly the quiz. Enjoy.</p>
+						<section>
+							<a href="#close" title="Close" class="close">Close</a>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="datFooterDoe">
+				<footer>
+					<p>&copy; All Rights Reserved</p>
+					<p>Contact Us: ffeyzi@scu.edu nrinaldi@scu.edu kbartlett@scu.edu</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/scripts.js"></script>	
+	<script type="text/javascript">
+		var d = Date();
+		var date = d.slice(0,15);
+		document.getElementById('date').innerHTML= date;
+	</script>
+</html>

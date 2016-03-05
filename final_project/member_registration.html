@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Member Registration</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/styles_reg.css">
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<!-- Compiled and minified JavaScript -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scripts_reg.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="start_page.html">
+					<svg id="circleLogo">
+						<circle cx="40" cy="60" r="30" style="fill:white;"></circle>
+ 						<circle cx="80" cy="60" r="30" style="fill:white;"></circle>
+						<circle cx="120" cy="60" r="30" style="fill:white;"></circle>
+					</svg>
+				</a>
+				<h1>Member Registration</h1>
+				<p id="date"></p>
+			</header>
+			<div id="inputForm">
+				<form method="POST" action="php/member_registration.php"> <!-- action="php/member_registration.php" -->
+          			<input class="input" placeholder="Name" name="uname" id="uname" type="text">
+					<!--<br />
+					<input class="input" placeholder="Password" name="pword" id="pword" type="text">-->
+					<br />
+					<div class="input-field col s6">
+		 				<input placeholder="Address" class="input" name="address" id="address" type="text">
+		 			</div>
+		 			<div class="row">
+						<div class="input-field col s6">
+		 					<input placeholder="City" class="input" name="city" id="city" type="text" >
+		 				</div>
+		 				<div class="input-field col s6">
+		 					<input placeholder="State" class="input" name="state" id="state" type="text">
+		 				</div>
+		 			</div>
+					<br />
+					<input placeholder="Email" class="input" name="email" id="email" type="text">
+					<br />
+					<input placeholder="Phone Number" class="input" name="phone" id="phone" type="text" maxlength="10">
+					<div>					
+						<input id="submitButton" type="submit">
+					</div>
+
+				</form>
+			</div>
+			<footer>
+				<p>&copy; All Rights Reserved</p>
+				<p id="contactUs">Contact Us: ffeyzi@scu.edu nrinaldi@scu.edu kbartlett@scu.edu</p>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var d = Date();
+		var date = d.slice(0,15);
+		document.getElementById('date').innerHTML= date;
+	</script>
+
+</html>

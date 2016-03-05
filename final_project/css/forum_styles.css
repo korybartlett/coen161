@@ -1,0 +1,172 @@
+/* *********************************
+ * ************ Colors *************
+ #27AE60 light green
+ #2ECC71 dark green
+ #3498DB light blue
+ #2980B9 dark blue
+ * ********************************/
+
+ body {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	background-color: #2ECC71;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	background-color: #27AE60;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 15s;
+}
+
+#circleLogo {
+	z-index: 100;
+	top: -15px;
+	position: absolute;
+	float: left;
+	display: block;
+}
+
+
+header h1 {
+	margin: 0;
+}
+
+#date {
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	top: -50px;
+	position: relative;
+	margin-right: 10px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: #3498DB;}
+    to {background-color: #27AE60;}
+}
+
+footer #contactUs {
+	margin-bottom: 0;
+	width: 100vw;
+}
+
+footer {
+	background-color: #27AE60;
+	z-index: 150;
+	position: fixed;
+	text-align: center;
+	color: white;
+	font-size: .75em;
+	clear: both;
+	bottom: 0;
+	/*margin-top: 71.25px;*/
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 15s;
+}
+
+#content {
+	color: #27AE60;
+	margin: 10px auto;
+	padding: 5px;
+	max-width: 960px;
+	background-color: white;
+	position: relative;
+	margin-bottom: 53px;
+}
+
+.post {
+	background-color: #3498DB;
+	color: white;
+	padding: 1px 5px;
+	margin: 2px;
+}
+
+.postTitle {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+.postOwner {
+	margin: 0;
+	padding: 0;
+	/*default font-size is 14px*/
+}
+
+.postDate {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	float: right;
+}
+
+#memberPosts {
+	margin: 0;
+	padding: 0;
+}
+
+.postContent {
+	margin: 0px 10px;
+	padding: 0px;
+}
+
+.addControl {
+	margin: 5px 2px;
+	padding: 5px;
+	background-color: #3498DB;
+}
+
+img {
+	height: 15px;
+	width: auto;
+}
+
+#newPost {
+	padding: 0;
+	margin: 0px 20px;
+	width: 95%;
+}
+
+.halfInput {
+	display: inline-block;
+	width: 45%;
+	background-color: white;
+	color: black;
+}
+
+.fullInput {
+	width: 90.5%;
+	height: 130px;
+	background-color: white;
+	color: black;
+}
+
+.comment {
+	color: #2980B9;
+	background-color: white;
+	margin: 10px 20px;
+	padding: 1px 5px;
+}
+
+.commentContent {
+	padding: 0;
+	margin: 0px 10px;
+	width: 80%;
+}
+
+.addCommentContent {
+	color: #2980B9;
+	background-color: white;
+	margin: 10px 20px;
+	padding: 2px;
+}

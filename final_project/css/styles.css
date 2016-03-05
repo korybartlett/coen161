@@ -1,0 +1,321 @@
+/* *********************************
+ * ************ Colors *************
+ #27AE60 light green
+ #2ECC71 dark green
+ #3498DB light blue
+ #2980B9 dark blue
+ * ********************************/
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+#wrapper {
+	background-color: #2ECC71;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	background-color: #27AE60;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 15s;
+}
+
+#circleLogo {
+	z-index: 100;
+	top: -15px;
+	position: absolute;
+	float: left;
+	display: block;
+}
+
+
+header h1 {
+	margin: 0;
+}
+
+#date {
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	top: -50px;
+	position: relative;
+	margin-right: 10px;
+}
+#quizContent {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: #3498DB;}
+    to {background-color: #27AE60;}
+}
+
+#theQuiz {
+	background-color: white;
+	position: relative;
+	height: 350px;
+}
+#theQuiz p {
+	color: #2ECC71;
+	font-size: 30px;
+	padding-top: 10px;
+	margin: 0;
+	margin-top: 10px;
+}
+#theQuiz h5 {
+	color: #2ECC71;
+}
+
+/* ignore this for now. It is supposed to contain the animation section */
+
+/* #gallery {
+	margin: 0 auto;
+}
+.slide-up-boxes {
+	float: left;
+} */
+
+.answersss1 {
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	background: url('../images/recycling-logo.png');
+}
+
+#slide-up2 {
+
+}
+
+.newFeat {
+	/*background: url('../images/recycling-logo.png'); */
+	height: 200px;
+	width: 200px;
+
+	-webkit-transition: margin-top 0.2s linear;
+}
+
+.answersss2 {
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+	width: 200px; 
+	overflow: hidden;
+	background: url('../images/recycling-logo.png'); 
+}
+
+.answersss2:hover .newFeat {
+	margin-top: -200px;
+} 
+
+.answersss1:hover .newFeat {
+	margin-top: -200px;
+}
+
+.answersss3:hover .newFeat {
+	margin-top: -200px;
+}  
+
+/*.answersss2 .answer2:hover {
+	-webkit-transform: rotate(0);
+}
+
+.answersss1 .answer1:hover {
+	-webkit-transform: rotate(0);
+}
+
+.answersss3 .answer3:hover {
+	-webkit-transform: rotate(0);
+} */
+.GGG {
+	height: 0px;
+}
+.answersss3 {
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	background: url('../images/recycling-logo.png');
+}
+.answer1 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin-right: 30px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg); */
+}
+
+
+.answer2 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin-right: 30px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg); */
+}
+.answer3 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg);*/
+}
+
+.answer4 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin-right: 30px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg); */
+}
+
+
+.answer5 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin-right: 30px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg); */
+}
+.answer6 {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-color: #2ECC71;
+	color: white;
+	font-size: 25px;
+	opacity: 0.7;
+
+	-webkit-transition: all 0.35s linear;
+	/*-webkit-transform: rotate(6deg);*/
+}
+
+
+#btn1 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+#btn2 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+#btn3 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+
+#btn4 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+#btn5 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+#btn6 {
+	background-color: #3498DB;
+	position: relative;
+	top: 140px;
+}
+
+#controlSection {
+	height: 60px;
+	margin: 0 auto;
+}
+.buttonStyles {
+	color: white;
+	background-color: #3498DB;
+	border: none;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	margin: 5px;
+}
+
+#btnNext {
+	display: none;
+}
+
+#btnStop {
+	display: none;
+}
+
+.buttonStyles:hover {
+	background-color: #2980B9;
+}
+
+footer #contactUs {
+	margin-bottom: 0;
+	width: 100vw;
+}
+
+footer {
+	background-color: #27AE60;
+	z-index: 150;
+	position: fixed;
+	text-align: center;
+	color: white;
+	font-size: .75em;
+	clear: both;
+	bottom: 0;
+	/*margin-top: 71.25px;*/
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 15s;
+}

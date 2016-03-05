@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Recycling Quiz</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<!-- Compiled and minified JavaScript -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="start_page.html">
+					<svg id="circleLogo">
+						<circle cx="40" cy="60" r="30" style="fill:white;"></circle>
+ 						<circle cx="80" cy="60" r="30" style="fill:white;"></circle>
+						<circle cx="120" cy="60" r="30" style="fill:white;"></circle>
+					</svg>
+				</a>
+				<h1>The Recycling Quiz</h1>
+				<p id="date"></p>
+			</header>
+			<div id="quizContent">
+				<div id="theQuiz">
+					<p>How well do you know your recycling facts?</p>
+					<h5 id="questionTxt"></h5>
+					<div id="theImages">
+						<ul id="gallery">
+						  <!-- Set up animation div here -->
+				          <li class="answersss1">
+				          	<div class="GGG">
+				          		<a id="btn1" class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Select</a>
+				          	</div>
+				          	<div class="newFeat"> <!-- the background image -->
+				      		</div>
+				          	<a class="answer1"> <!-- the answer -->
+				              <!-- relative path -->
+				              <strong id="answerA">Placeholder</strong>
+				            </a>
+				          </li>
+				          <!-- end animation div -->
+
+				          <!-- Set up animation div here -->
+				          <li class="answersss2">
+				          	<div class="GGG">
+				          		<a id="btn2" class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Select</a>
+				          	</div>
+				          	<div class="newFeat"> <!-- the background image -->
+				      		</div>
+				          	<a class="answer2"> <!-- the answer -->
+				              <!-- relative path -->
+				              <strong id="answerB">Placeholder</strong>
+				            </a>
+				          </li>
+				          <!-- end animation div -->
+
+				          <!-- Set up animation div here -->
+				          <li class="answersss3">
+				          	<div class="GGG">
+				          		<a id="btn3" class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Select</a>
+				          	</div>
+				          	<div class="newFeat"> <!-- the background image -->
+				      		</div>
+				          	<a class="answer3"> <!-- the answer -->
+				              <!-- relative path -->
+				              <strong id="answerC">Placeholder</strong>
+				            </a>
+				          </li>
+				          <!-- end animation div -->
+				        </ul>
+					</div>
+				</div>
+				<div id="score">
+					<p></p>
+				</div>
+				<div id="controlSection">
+					<button type="button" class="buttonStyles" id="btnStart">Start</button>
+					<button type="button" class="buttonStyles" id="btnNext">Next</button>
+					<button type="button" class="buttonStyles" id="btnStop">Stop</button>
+				</div>
+			</div>
+			<footer>
+				<p>&copy; All Rights Reserved</p>
+				<p id="contactUs">Contact Us: ffeyzi@scu.edu nrinaldi@scu.edu kbartlett@scu.edu</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript">
+			var d = Date();
+			var date = d.slice(0,15);
+			document.getElementById('date').innerHTML= date;
+		</script>
+	</body>
+</html>
